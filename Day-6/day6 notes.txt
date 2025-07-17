@@ -1,0 +1,78 @@
+Tuples:
+order and mixed values
+immutable
+can't add,update
+support indexing and slicing
+
+create tuple:
+tuple=()
+tuple=(1,2,(3,4))
+
+
+minimum integer
+or comma separator
+
+nested tuple possible
+t=((1,2),(3,4))
+
+print(t[0])
+ based on index
+
+tuple operation
+concentation:(+)
+repetation(*)
+membership(in,not in)
+
+len()
+index()
+min()
+max()
+sum()
+count()
+
+Test question:
+
+nested_data = (["X", "Y"], ("A", "B", "C"), "PQRS")
+
+multipliers = [2, 3, 1]
+
+separators = ("|-|", "***", "^^^")
+
+positions = [(1, 0), (2, 1, 0), (3, 1)]
+ 
+expected op: 
+"Y|-|YA***C***ABRS^^^S^^^R"
+ 
+ 
+ 
+Rules :
+     No loops, functions, conditions, or f-strings/format()
+Only use: indexing, slicing, string concatenation (+), string multiplication (*), tuple/list operations
+Must access elements using the positions data to determine which characters to extract
+Must use multipliers to determine repetition counts
+Must use separators for joining
+Everything in ONE expression (though you can use intermediate variables for sub-expressions)
+
+
+Homework:
+
+1)is this possible to mutable the tuple
+create tuple
+value should be changed
+acc no, name,pan card,balance,credit,debit 
+
+#bank details
+tuple1=(12344,'sandhiya','sky12234',1000,1200,2500)
+new_tuple=tuple1[0],tuple1[1],tuple1[2],(tuple1[3]+tuple1[4]-tuple1[5]),tuple1[4],tuple1[5]
+print(new_tuple)
+
+
+2)average value float
+
+tuple1=map(float,input().split())
+print(sum(tuple1))/len(tuple1)
+
+
+
+ 
+ 

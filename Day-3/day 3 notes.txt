@@ -1,0 +1,92 @@
+version control system - evaluate the last changes
+
+vcs user can:
+
+maintain complete history
+revert to pervious versions
+work collaboratively
+identify and resolve conflicts
+
+Types of vc:
+1.Local version control
+    system crashes of multiple file
+
+2.Centralized vc(everyone acces)
+    one main server holds all files
+    everyone get file and changes to it
+    ex: subversion(svn), perforce
+
+3.distributed version control system
+   Everyone has a full copy of entire
+   we don't need to track
+   safer and faster
+
+Key concept:
+Repository(repo)- a folder
+commit- a snapshot of project (without changes no commit)
+branch-a side path
+marge- bringing two branches together
+conflict- stoarge issue,forget the name of changed file
+log-a history of commit
+
+
+GIT:
+
+Distributed version control system
+helps track changes,source code,documents,configs
+distributed every contributor has a complete copy
+fast,efficient,relaiable
+git launched -2005
+github-2008
+git best balance
+standaed choice-open source
+
+GIT:
+--system -all user 
+--global -your user acc
+--local -current project only
+
+
+GIT Commands:
+
+gitinit - repository(start tracking)
+git status (check the status)
+git add . (or) git add "filename"(python.py)
+git commit -m  "command"
+git status 
+git checkout -b "branch_name" -new branch
+git branch(where we are it check)
+git checkout (branch_name) - to switch between branch
+git merge "branchname"
+git log
+
+
+won't work locally
+git push
+git pull
+git fetch
+git clone
+
+GitHub -remote posting platform
+
+
+1. Swap Two Numbers Without Temp Variable Scenario: Given x = 5 and y = 7, swap them without using a third variable.
+ 
+a=5
+b=7
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
+o/p:
+7 5
+
+2.Convert Boolean to Integer Without Casting Scenario: Given a boolean x = True, how do you print 1 for True and 0 for False, without using int() or type conversion?
+
+x=False
+print(x+0)
+0
+x=True
+print(x+0)
+1
+

@@ -1,0 +1,18 @@
+how do program get info and respond back?
+
+input-input()
+\n newline
+output-print()
+
+separators
+print("16","07","2025",sep="-")
+
+multiple inputs
+x,y,z=input("Enter three number:").split()
+
+type cast:
+x,y,z=map(int,input("Enter three number:").split(','))
+
+ord(),chr()
+
+print(ord('A'))

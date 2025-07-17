@@ -1,0 +1,99 @@
+GitHub desktop:
+
+Git advanced 
+
+
+realign timeline :
+git rebase [branchname]:
+
+ways to combine work in git:
+merge:(latest updated code in main branch)
+   preserve the history
+
+rebase:(commited in separate branch to main branch)
+   release the history
+
+git cherry-pick [id]:
+   directly go to particular commit
+
+git cherry-pick[address]
+
+git reset:
+   entire code is reset
+   remove history
+it does not affect the branches
+
+git reset:[--soft HEAD~1]
+   revert to  back one stage code 
+   changes in history
+
+git reset:[--mixed HEAD~1]
+
+
+git reset:[--hard HEAD~1]
+moved to back 1 commit
+
+git revert [id]:
+directly revert to particular
+it affect the branches
+no changes history
+
+git restore [filename]:
+replaces the file with lasted committed version
+
+git clean:
+untracked files,untracked folders
+
+git clean -f(files)
+git clean -fd(file directory)
+git clean -n(delete)
+
+git diff:
+shows the difference
+++ and -- (after)
+
+git blame [filename]:
+last modified
+
+git stash 
+half-finished
+WIP[wait in period]
+
+git stash pop:
+delete from stash list
+
+git tag<tagname>:
+label the branch
+
+
+GitHub issue:
+way to track a task
+
+
+pull request:
+main branch
+create new branch
+make and commit changes
+push branch to GitHub
+
+git flow workflow(feature-develop-release)-integration
+GitHub work-team using ci/cd
+trunk-based-small teams,feature flags
+
+git ignore:
+ignore specific files or folder
+
+complied file:
+*.class
+
+gitignore.io 
+
+gitattributes:
+(*.txt,*.jpg)
+
+git ci/cd pipeline[continuous integration/continuous delivery]
+
+detects bugs early
+
+wprkflow:
+commit/push,ci runs tests,pr opened

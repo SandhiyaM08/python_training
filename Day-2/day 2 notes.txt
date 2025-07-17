@@ -1,0 +1,157 @@
+Day 2
+
+complier and interpreter
+
+Data types
+Numeric
+	int
+	float
+	complex
+Sequence:
+	string
+	    string can't convert to int and float
+
+	set 
+	tuple
+dict
+
+other type
+	frozenset-[()] combination of list and tuple
+	Nonetype-Keyword None[returns the empty value]
+	Boolean - Keyword 'bool' (true or false)
+
+Built-in Functions:
+	type() - finding the type 
+	find() - finding the string
+	print()
+ 	len()-total length of string (in) keyword
+		:
+    		text ="sandhiya Muthumani"
+    		print("sandhiya" in text)
+
+Slicing:
+
+text="python"
+print(text[::-1])
+
+starts from 0 
+postive[0:3],[2::5]-index 2 and takes every 5th character
+eg:
+t="python program"
+print(t[2::5])
+tpa
+
+negative[::-1] from last (from back index starts from -1)
+reverse[start pos, end pos, occurence]
+
+Concatenation:
+joining 2 strings
+
+Formatting:
+
+name = "Muthu"
+age = 25
+
+print(f"My name is {name} and I am {age} years old.")
+
+print("My name is {} and I am {} years old.".format(name, age))
+
+
+print("My name is {name} and I am {age} years old.".format(name="Muthu", age=25))
+
+
+Standalone functions:
+
+upper()-print(text.upper())
+lower()
+capitalize()
+title()-first letter capital
+
+New line commands:
+\n - newline
+\t - tab
+\\ - to add string \ include
+\" 
+	text = "He said, \"Hello there!\""
+	print(text)
+	o\p:He said, "Hello there!"
+
+
+Homework: 
+
+qn. v1=2,v2=3 => which is bigger
+#declaring values
+v1=2
+v2=3
+#creating tuple
+val=(v1,v2)
+#true[1],false[0]
+ind=(v1<v2)
+print(val[ind])
+
+
+1)dictionary is ordered or unordered.
+
+Before 3.7 it is unordered like keys and values ,the dictionary can print the different keys .
+After 3.7 it become the ordered ,that is in which we insert the values while looping the same order is inserted.
+ 
+2)range support decimal or not.
+
+Range() built-in function does not support decimal value .
+If we want to the decimal values in form of range we can use numpy library func 
+We have to import numpy and we can use arange[numpy.arange] 
+
+ 
+3)how can use none - its keywords or datatypes.
+ It's both keyword and datatypes
+ But we can't use it as a variable name
+ 
+4)double,long comes under what.
+long is interger datatype, python 2 we separate long and int now in python 3 only int
+double is float datatype
+ 
+5)1e6 - float or int
+1e6=1*10^6=10,00,000.0
+2e8=2*10^8
+It's float
+ 
+6)why aren't all decimal calculation exact in python?
+Computers store numbers in binary (base-2), not decimal (base-10).
+computer store floats using global system =>IEEE 754
+ 
+
+
+
+ HP launches AI-powered OmniBook 5 and 3 laptops in India, starting at ₹69,999
+The laptops are available now in India in a single “Glacier Silver” colour. Pricing starts at ₹75,999 for the OmniBook 5 and ₹69,999 for both OmniBook 3 variants.	
+
+Beyond Grok, update 2025.26 also introduces Light Sync for the new Model 3 and Model Y, 2026 Model S/X, and Cybertruck, allowing accent lights to pulse with your music 
+
+Qus greater number:
+
+opt1:
+#declaring values
+v1=2
+v2=3
+#creating tuple
+val=(v1,v2)
+#true[1],false[0]
+ind=(v1<v2)
+print(val[ind])
+
+
+opt2:
+a, b = 4, 5
+bigger = a * bool(a > b) + b * bool(b > a)
+print("The bigger number is:", bigger)
+
+opt3:
+a, b = 2,3
+bigger = sorted([a, b])[-1]
+print("The bigger number is:", bigger)
+
+solution:
+a=2
+b=3
+print("v1 is bigger than v2-the statement is",{v1>v2})
+
