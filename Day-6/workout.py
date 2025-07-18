@@ -28,11 +28,11 @@ print(t[0])
 print(t[0])
 print(t[::-1])
 
-particular index
+# particular index
 tt=((1,2),(3,4),(5,6))
 print(tt[-2][0])
 
-adding without bracket
+# adding without bracket
 tuple1=(1,3)
 tuple2=('a','b')
 tuple3=tuple1+tuple2
@@ -43,7 +43,7 @@ tuple1=(10,20,30,40,50,60,20)
 print(tuple1.index(20))
 
 tuple1=(10,20,30,40,50,60,20)
-value=[:2]+[2:]
+value=tuple1[:2]+tuple1[2:]
 print(tuple1.count((value)))
 print(value)
 
@@ -81,3 +81,8 @@ print(new_tuple)
 t=(10,20,30,40)
 s=t.pop(0)
 print(t)
+
+#average value float
+tuple1=map(float,input().split())
+print(sum(tuple1))/len(tuple1)
+
