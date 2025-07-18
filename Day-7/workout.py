@@ -7,7 +7,7 @@ tuple1=(12344,'sandhiya','sky12234',[1000,1200,2500])
 new_tuple=tuple1[0],tuple1[1],tuple1[2],(tuple1[3]+tuple1[4]-tuple1[5]),tuple1[4],tuple1[5]
 print(new_tuple)
 
-declaring values
+#declaring values
 tuple1 = (12344, 'sandhiya', 'sky12234', [1000, 1200, 2500])
 #balance
 calculated_value = tuple1[3][0] + tuple1[3][1] - tuple1[3][2]
@@ -116,7 +116,7 @@ print((num%3==0 and "jugs") or num)
 
 
 
-num = n:=input("Enter the number: ")).isdigit() and (val := int(num)) or (val := int(input("Kindly enter numeric value: ")))) and ("jugs" if val % 3 == 0 else val))
+num =input("Enter the number: ").isdigit() and (val := int(num)) or (val := int(input("Kindly enter numeric value: ")))) and ("jugs" if val % 3 == 0 else val))
 
 
 val = (num := input("Enter the number: ")).isdigit() and int(num) or int(input("Kindly enter numeric value: "))
@@ -124,7 +124,7 @@ print("jugs" if val % 3 == 0 else val)
 
 
 val = int((num := input("Enter the number: ")).isdigit() and num or input("Kindly enter numeric value: "))
-print((val % 3 == 0) "jugs" or val)
+print(val % 3 == 0) and "jugs" or val
 
 #printing jugs
 val = int((num := input("Enter the number: ")).isdigit() and num or input("Enter numeric value: "))
