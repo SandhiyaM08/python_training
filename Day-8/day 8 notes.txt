@@ -1,4 +1,3 @@
-can't use bool and none 
 
 Every thing should be in one object everything is consider as class
 
@@ -6,16 +5,15 @@ Named tuple:
 
 namedtuple(typename,fieldname)
 
-
-
+Named tuples:
 from collections import namedtuple
 student=namedtuple('student',['name,'age','grade','score'])
-student=student(
-
+student=student("Anita",16,"A",95)
 
 Dictionaries:
 
 unordered,mutuable
+duplicates keys are allowed
 
 key:value pair
 key unqiue
@@ -34,5 +32,38 @@ If the value is not found:
 
 print(my_dict.get("email"))---->o/p:none
 print(my_dict.get("email","not found"))------>o/p:not found
+
+adding values:
+players={1:"dhoni",2:"kholi"}
+players[3]="sachin"
+print(players)
+
+update/modify
+dictionary[key]=new_value
+
+we can't replace key
+
+del:
+del dictionaryname(key value)
+we can't delete values
+
+id() function:
+v1=int(input())
+print(id(v1))
+
+pop():
+dictionary_name.pop(keys)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
