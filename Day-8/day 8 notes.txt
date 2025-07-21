@@ -1,0 +1,38 @@
+can't use bool and none 
+
+Every thing should be in one object everything is consider as class
+
+Named tuple:
+
+namedtuple(typename,fieldname)
+
+
+
+from collections import namedtuple
+student=namedtuple('student',['name,'age','grade','score'])
+student=student(
+
+
+Dictionaries:
+
+unordered,mutuable
+
+key:value pair
+key unqiue
+student={"name":"sandhiya","age":16}
+cannot have two items in values
+
+creating dictionary:
+dictionary_name={}
+dictionary_name=dict()->dict method
+
+example:
+players={1:"dhoni",2:"kholi"}
+print(players[2])----->key values printing o/p:Kholi
+
+If the value is not found:
+
+print(my_dict.get("email"))---->o/p:none
+print(my_dict.get("email","not found"))------>o/p:not found
+
+
