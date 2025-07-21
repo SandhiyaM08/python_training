@@ -79,14 +79,84 @@ print(type(last))
 #tuple unpacking
 
 a=(1,2)
-print(a)'''
+print(a)
 
 (a,(b,c))=(1,(2,3))
 print(a,b,c)
 
+dictionary:
+print(my_dict.get("email"))
+
+#same key different values 
+players={1:"dhoni",1:"kholi"}
+print(players)--->o/p:1:"kholi"
 
 
 
+d={1:'A',True:'B',1.0:'C'}
+print(d)-->{1,'C'}
+
+print(type({1:'a'}))
+print(type({1,2}))
+
+print(dict([(1,2,3)]))
+print(dict([(1,2)]))
+
+#None also accepted the key
+d=dict()
+d[None]='empty'
+print(d)
+
+
+players={1:"dhoni",2:"kholi"}
+print(players[2])
+
+#getting input from user
+players={input():input()}
+
+#getting input from user
+players={input():input(),1:input()}
+
+#getting input()
+players={1:"dhoni",2:"kholi",3:"rohit"}
+players[4]=input()
+print(players)
+
+#print()
+players={1:"dhoni",2:"kholi",3:"rohit"}
+players[4]=print()
+print(players)--->None
+
+#getting bool()
+players={1:"dhoni",2:"kholi",3:"rohit"}
+players[4]=bool()--->0
+print(players)
+
+#getting int()
+players={1:"dhoni",2:"kholi",3:"rohit"}
+players[4]=int()
+print(players)--->0
+
+#modify
+players={1:"dhoni",2:"kholi",3:"Rohit"}
+players[3]="sachin"
+print(players)
+
+#update
+players={1:"dhoni",2:"kholi",3:"Rohit"}
+players[4]="sachin"
+print(players)
+
+#deleting element
+players={1:"dhoni",2:"kholi",3:"Rohit"}
+del players[3]
+print(players)'''
+
+#poping element
+
+players={1:"dhoni",2:"kholi",3:"Rohit"}
+pop players[3]
+print(players)
 
 
 
