@@ -1,3 +1,85 @@
+list:
+letters=list("hello")
+
+without list bracket:
+print(*a)
+
+using loop:
+ for val in a:
+    print(val,end=" ")
+
+hello without upper
+
+list operations:
+1)concatenation(+)
+2)Repetition(*)
+3)membership operators (in,not in)
+ 
+list methods:
+append()
+clear()
+copy()
+count()
+extend()
+index()
+insert()
+pop()
+remove()
+reverse()
+sort()
+ 
+build-in(standalone operations)
+len()
+min()
+max()
+sum()
+sorted
+
+1.remove that element occurence 
+2.sort and sorted difference
+
+1)to add multiple list
+
+list1=['Alice','Bob']
+list2=['Charlie','David']
+list3=['Sandy','Muthu']
+print(list1.extend(list2+list3))
+print(list1)
+
+2)num=[123,287,9001]
+
+
+num=[123,287,9001]
+print(str(num[2]).index('0'))
+
+num=[123,287,9001]
+print(2*(num[2]==9001))
+
+3)to remove all occurrence
+
+#second occurence sol1
+list=[1,2,3,4,2]
+value=2
+removed=list.remove(value)
+removed=list.remove(value)
+print(list)
+
+#sol2
+list=[1,2,3,4,2]
+value=2
+new_list=list[0],list[2],list[3]
+print(new_list)
+
+
+4)d/f sort nd sorted
+
+sort()-returns none    sorted()-returns sorted list
+done only in list       list,tuple,dict
+both sort() and sorted() have two keyword-only arguments — key and reverse
+The sorted() function returns a new sorted list.
+The .sort() method sorts the list in place. 
+
+
 how do program get info and respond back?
 
 input-input()

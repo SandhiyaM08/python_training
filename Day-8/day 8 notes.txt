@@ -44,7 +44,7 @@ dictionary[key]=new_value
 we can't replace key
 
 del:
-del dictionaryname(key value)
+del dictionaryname(key_value)
 we can't delete values
 
 id() function:

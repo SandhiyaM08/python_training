@@ -7,6 +7,7 @@ Numeric
 	int
 	float
 	complex
+
 Sequence:
 	string
 	    string can't convert to int and float
