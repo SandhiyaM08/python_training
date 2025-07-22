@@ -2,7 +2,7 @@
 # output:makes you think
 
 
-print(" ".join("Python makes you think differently".split()[1:4]))
+# print(" ".join("Python makes you think differently".split()[1:4]))
 
 
 #solution:
