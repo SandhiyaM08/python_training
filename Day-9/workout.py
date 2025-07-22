@@ -26,8 +26,13 @@ print(d)
 #print
 student={"a":{"math":95,"science":89},
 "b":{"math":80,"science":92},}
-print(student["b"]["science"])'''
+print(student["b"]["science"])
 
 
 d={"a":1,"b":2,[1,2]}
-print(len(d)
+print(len(d)'''
+
+d={"x":10}
+key_view=d.values()
+d['y']=20
+print(list(key_view))
