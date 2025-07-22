@@ -1,0 +1,69 @@
+pop() won't work with key values only work similar to del
+
+membership operator in dictionary:
+(in,not in)
+
+syntax:
+key in dictionary_name
+
+example:
+
+keys checkin
+d={"a":1,"b":2}
+print('a' in d)
+
+values checking
+d={"a":1,"b":2}
+print(4 in d)
+
+d.items():
+list inside tuple
+example:
+dict_items([('a', 1), ('b', 2)])
+
+nested dictionary:
+list of dictionary is possible
+d=[{1:2,3:4}]
+print(d)
+
+count(key:value)
+counts the item
+
+clear()
+
+
+items()
+returns all elements present in dictionary
+
+.keys()
+returns the key elemets
+
+d={"x":10}
+key_view=d.keys()
+d['y']=20
+print(list(keys_view))
+
+values()
+returns values
+
+update()
+update using keyword arguments
+setdefault()
+    dict.setdefault(key,default)
+
+
+dict methods:
+.items()
+.keys()
+.values()
+.in/not in operator
+.clear()
+.update()
+.popitem()-->pos the last item 
+.pop--->pops the keys and value
+.del()--->de
+
+standalone function:
+len()
+setdefault()
+

@@ -14,6 +14,8 @@ Dictionaries:
 
 unordered,mutuable
 duplicates keys are allowed
+keys must hashable
+
 
 key:value pair
 key unqiue

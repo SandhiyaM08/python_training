@@ -22,11 +22,23 @@ fruit_prices = {"alpep": 100, "egnaro": 80, "ananab": 60}
 # #getting input from user
 fruit_name = input("Enter fruit name:")
 # #performing operations
-key =list(fruit_prices[list(map(sorted,fruit_prices)).index(sorted(fruit_name)))]
-print(fruit_prices[key])'''
+key =list(fruit_prices)[list(map(sorted,fruit_prices)).index(sorted(fruit_name))]
+print(fruit_prices[key])
 
 
 fruit_prices = {"alpep": 100, "egnaro": 80, "ananab": 60}
 fruit_name = input("Enter fruit name:")
 key = list(fruit_prices)[list(map(sorted, fruit_prices)).index(sorted(fruit_name))]
-print(fruit_prices[key])
+print(fruit_prices[key])'''
+
+
+fruit_prices = {"alpep": 100, "egnaro": 80, "ananab": 60}
+fruit_name = input("Enter fruit name:")
+sorted_prices = {(''.join(sorted(fruit_name):fruit_prices.values())}
+print(sorted_prices)
+print(map(''.join(sorted(fruit_name):
+
+
+fruit_prices = {"alpep": 100, "egnaro": 80, "ananab": 60}
+fruit_name = input("Enter fruit name:")
+print({fruit_name: ''.join(sorted(fruit_name))})
