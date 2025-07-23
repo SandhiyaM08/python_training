@@ -61,7 +61,7 @@ dict methods:
 .update()
 .popitem()-->pos the last item 
 .pop--->pops the keys and value
-.del()--->de
+.del()--->delete the particular key
 
 standalone function:
 len()

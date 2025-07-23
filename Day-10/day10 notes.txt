@@ -1,0 +1,50 @@
+Set:
+unordered,unique elements
+mutabale,does not allow duplicates
+unhashable
+
+creating set :
+
+curly braces{1,2,3}
+
+set() function:
+set(iterable)
+s1=set([1,2,3])
+print(s2)
+o/p:
+{1,2,3}
+
+adding element:
+.add()
+.update()
+.remove()-remove if item not raise error
+.discard()-remove if item raise error
+.pop()-removes randomly
+.clear()-empties entire set
+
+membership(in,not in)
+
+
+union operator(|)
+intersection(&)
+
+problem:
+
+##if scenario of class have same name with same initial =>2 person how will you add in set
+
+#assign values
+students={'Alice','Bob','Charlie'}
+new_entries=['Charlie','Diana','Eve','Bob','Frank']
+
+#converting to list
+student_list=list(students)
+
+#adding 
+students=student_list+new_entries
+print("{" + ",".join(students)+ "}")
+
+reverse the dictionary
+
+how to order way to print
+
+
