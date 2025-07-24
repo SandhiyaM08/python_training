@@ -1,2 +1,6 @@
-l1=[[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]]
-print(list(set(l1[0]) & set(l1[1]) & set(l1[2]) & set(l1[3])))
+'''l1=[[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]]
+print(list(set(l1[0]) & set(l1[1]) & set(l1[2]) & set(l1[3])))'''
+
+l1 = [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6], [4, 5, 6, 7]]
+elements=list(set.intersection(*map(set,l1)))
+print(elements)
