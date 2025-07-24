@@ -155,7 +155,7 @@ superset checking:(>=)
 
 disjoint set:(no common values)(ans Boolean)(isdisjoint)
 
-frozen set:(immutable)(changeable)
+frozen set:(immutable)(can't changeable)
 
 regular set:(mutable)
 
