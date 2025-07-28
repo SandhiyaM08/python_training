@@ -1,0 +1,19 @@
+Conditional:
+
+Boolean:
+true,false
+if,while,other conditional
+
+comparison operators:
+<,>,=,<>,<=,>=,!=
+
+if   :if condition true
+elif :check another condition
+else :condition false
+
+
+
+
+
+
+
