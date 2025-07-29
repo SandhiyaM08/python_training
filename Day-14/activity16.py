@@ -1,4 +1,5 @@
-## input1,input2,input3=map(input("Enter the values:").split(','))
+#three booleans if exactly one is true print'exactly one' else 'nope' use only if 
+# input1,input2,input3=map(input("Enter the values:").split(','))
 # if any[(input1,input2,input3)]==True:
 # 	print('True')
 
