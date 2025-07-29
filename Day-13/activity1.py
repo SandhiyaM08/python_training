@@ -25,8 +25,14 @@ if(mark - cutoff) // (mark - cutoff) and (mark-cutoff):
 #    print("pass")
 
 #for marks less than cutoff 
+# mark=int(input("Enter mark:"))
+# cutoff=int(input("Enter cutoff:"))
+# diff=(mark - cutoff)
+# if (diff+abs(diff))//2 is diff:
+#    print("pass")
+
 mark=int(input("Enter mark:"))
 cutoff=int(input("Enter cutoff:"))
-diff=(mark - cutoff)
-if (diff+abs(diff))//2 is diff:
+diff=(cutoff-mark)
+if not diff:
    print("pass")

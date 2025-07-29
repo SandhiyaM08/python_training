@@ -1,0 +1,72 @@
+top-down execution:
+first condition true,skip remaining
+
+and:(condition,value)
+both condition true
+
+or:(only one)
+
+precedence:
+
+not
+and 
+or
+
+and short circuit
+or short circuit
+
+ternary :
+if and else in same line
+
+syntax:
+value_true if condition else value_false:
+
+pass:
+placeholder
+
+eg:
+if true:
+	pass
+
+all():
+all should true-returns true
+
+any():
+any one true-returns true
+
+walrus operator:
+
+:=
+
+ellipsis operator:
+(...)
+
+Bitwise operation:
+work on binary
+
+Bitwise AND(&):
+BOTH1-return 1
+
+Bitwise or(|):
+any 1 is return 1(atleast)
+
+Bitwise xor:
+
+Bitwise Not:(~)
+
+left shift
+
+right shift 
+
+Identity:
+
+
+
+
+
+
+
+
+
+
+
