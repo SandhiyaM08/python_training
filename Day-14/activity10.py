@@ -5,4 +5,4 @@ string2=input("Enter the two string:")
 if string1.lower() == string2.lower():
 	print("Match")
 else:
-	print("No match")
+	print("No match") 

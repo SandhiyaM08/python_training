@@ -1,0 +1,74 @@
+control flow:
+
+looping constructs:
+
+for loop:
+each item in sequence
+
+syntax:
+for item in sequence:
+	print(item)
+
+word='python'
+for char in word:
+	print(char,end='-')
+
+primes=[1,2,3]
+for numbers in primes:
+	print(f'{numbers} is prime)
+
+iterating over dictionary:
+(order of inserting)
+
+#iterate over keys
+scores={'A':95,'B':8,'C':9}
+for name in scores:
+	print(name)
+
+#iterate over key-value pair
+for name,score in scores.items():
+	print(f'{name}:{score}') 
+
+iterating over set:
+
+colors={'red','blue','green'}
+for color in colors:
+	print(color)
+
+.values()
+.items()
+iter()
+next()
+
+while loop:(condition)
+
+syntax:(while (True))
+while condition:
+ #block of code
+
+break:
+breaks the current iteration
+
+continue:
+if the condition fails it go for the next loop
+
+while-else/for-else:
+the else block runs only if loop wasn't exited by break
+
+advanced looping:
+enumerate()
+zip()
+
+nested loop:
+matrix(for loop inside for loop)
+
+
+open question:
+imagine one num between 1-100
+
+
+
+
+
+
+

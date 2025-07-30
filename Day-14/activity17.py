@@ -13,3 +13,4 @@ if (string1==string2):
 	print("Mirror")
 else:
 	print("Broken")
+
