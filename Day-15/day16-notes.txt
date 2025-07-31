@@ -1,0 +1,17 @@
+searching:
+checking element
+
+linear search
+each elemnt one by one
+ 
+binary search
+finds the target using the mid value
+
+dot string:
+understand the function
+"""..."""
+
+return statement:
+return back a value from function
+
+
