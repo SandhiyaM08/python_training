@@ -13,5 +13,30 @@ understand the function
 
 return statement:
 return back a value from function
+without return none will print
+
+parameter:
+function defining
+
+Arguments:
+function calling
+passing the values inside 
+
+formal argument:
+
+
+actual argument:
+
+function arguments:
+
+*args
+
+**kwargs
+
+
+
+
+
+
 
 
