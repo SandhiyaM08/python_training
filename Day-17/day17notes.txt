@@ -1,0 +1,32 @@
+namespace and variable scope resolution:
+
+containers to map names to object
+
+global variable:
+	outside the func
+
+local variable:
+	inside the func
+
+enclosed:
+	function is defined inside func
+
+built-in:
+		
+
+
+when you use a variable inside a function how does python know where to look 
+
+
+x = 10 #global
+def func1():
+    y = 5 #local
+    print("Inside function: x =", x)  
+    print("Inside function: y =", y)  
+funct1()
+
+
+python generators:
+yield()-->generator values
+
+but return does the value
