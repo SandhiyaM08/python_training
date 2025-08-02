@@ -23,7 +23,7 @@ print(insertion(val))'''
 #solution
 val = [1, 23, 10, 34, 45]
 def insertion(val):
-    for i in range(1, len(val)):
+    for i in range(1, len(val)):g
         j = i
         while j > 0 and val[j] < val[j - 1]:
             val[j], val[j - 1] = val[j - 1], val[j]
