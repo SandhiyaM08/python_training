@@ -10,3 +10,4 @@ def array_size(nums):
     return value
 nums = list(map(int,input("Enter value:").split(',')))
 print(array_size(nums))  
+

@@ -8,10 +8,10 @@ Must use a for loop to print 'hello' repeatedly.
 
 _=input()
 for _ in range(len(_)):
-	print("hello")
-
-for _ in range(len(input())):
 	print("hello")'''
+
+for _ in(input("Enter string:")):
+	print("hello")
 
 
 

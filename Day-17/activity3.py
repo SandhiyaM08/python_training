@@ -9,6 +9,8 @@ n1=int(input("Enter the first integer:"))
 n2=int(input("Enter the second integer:"))
 print(lcm(n1,n2))
 
+
+
 '''def lcm(n1,n2):
 	while n2!=0:
 		n1,n2=n2,n1%n2

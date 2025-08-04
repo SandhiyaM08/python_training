@@ -28,3 +28,7 @@ def password1(password):
     		return "Incorrect"
 password = input("Enter the password: ")
 print(password1(password))
+
+
+
+
