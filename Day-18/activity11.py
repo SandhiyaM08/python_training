@@ -1,4 +1,5 @@
 #set comprehension vowels
 items = {'banana'}
-result = {char for item in items for char in item if char == 'a'}
+result = {char for item in items  if char in 'aeiou'}
 print(result)
+

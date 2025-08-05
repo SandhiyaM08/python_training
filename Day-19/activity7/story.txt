@@ -1,0 +1,4 @@
+
+with open("story.txt", "w") as f:
+    for i in range(1000000): 
+        f.write(f"This is line {i + 1}\n")

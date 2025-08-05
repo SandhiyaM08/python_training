@@ -1,0 +1,44 @@
+Modules:
+one python file 
+
+if we want to bring the code to another we need to import
+
+Types of modules:
+Built-in 
+user defined
+third party
+
+built-in:
+
+import using alias:
+import math as m
+
+import using specific part:
+
+from math import pi,sqrt
+print(sqrt(pi))
+
+Datetime module:
+
+user define module:
+we want to create module use it in another file
+
+virtual environment:
+minimalist of docker
+
+file system:
+organizes and stores file
+
+opening and reading files:
+open(file_path,mode)
+
+filepath-location
+
+
+
+
+
+
+
+
+
