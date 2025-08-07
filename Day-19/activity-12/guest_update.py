@@ -1,4 +1,3 @@
-
 try:
     with open("guest.txt", "r") as file:
         guests = file.readlines()

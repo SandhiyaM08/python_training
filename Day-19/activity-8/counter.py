@@ -3,3 +3,4 @@ def count_lines(filename):
         return sum(1 for _ in file)
 print("Total lines:", count_lines("story.txt"))
 
+
