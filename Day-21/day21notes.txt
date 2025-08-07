@@ -19,4 +19,8 @@ input csv from user
 read operation and write 
 output csv
 
+print({"hello,{}!"}.format("alice",42))
+
+pandas:
+python library
 
