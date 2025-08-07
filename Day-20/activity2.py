@@ -37,8 +37,10 @@ with zipfile.ZipFile("archive.zip", "w") as file:
 
 
 with zipfile.ZipFile("archive.zip", "r") as file:
-    file.extractall()
-    print("Files in ZIP:", file.namelist())
+	file.extractall()
+	print("Files in ZIP:", file.namelist())
+	
+	
 
 
 
