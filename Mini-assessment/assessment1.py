@@ -46,9 +46,16 @@ old=pd.read_csv("old_airline_data_2023.csv")
 new=pd.read_json("new_airline_data_2024.json")
 missing_values=new.isnull().sum()
 new.iloc[:,1:]=new.iloc[:,1:].fillna(new.iloc[:,1:].mean())
-new=new.dropna()
+
+new=new.dropna(subset=['Flight Operated','Passengers Opearted',Target Passengers'],how='all',axis=0)
+
+
+
 new.iloc[:,:1]=new[new.iloc[:,:1].isin(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Nov','Dec'])]
-new.columns=new.columns.str.lower().str.replace(' ','_')new['month']=new['month'].str.capitalize
+
+new.columns=new.columns.str.lower().str.replace(' ','_')
+
+new['month']=new['month'].str.capitalize
 new=new.groupby('month',as_index=False).first()
 print(new)
 

@@ -1,7 +1,7 @@
 #activity1
 
 class Car:
-    brand = "Toyota"  # Shared brand
+    brand = "Toyota" 
 
     def add_car(self, number_plate):
         self.number_plate = number_plate  
