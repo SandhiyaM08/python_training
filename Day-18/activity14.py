@@ -4,7 +4,4 @@ for line_number, line in enumerate(log_lines, start=1):
         print(f"LINE: {line_number} -> {line}")
         break
 
-def gen():
-	try:
-		
-value=(x for x in range(
+

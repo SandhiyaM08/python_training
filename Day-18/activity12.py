@@ -4,5 +4,4 @@ result= {
     for guest in raw_guests
     if guest.strip()  
 }
-
 print(result)

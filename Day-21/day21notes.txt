@@ -13,7 +13,7 @@ bob,25,london
 2+2+2+2+2+2+0+0+0+0+0+0+0+13+10
 
 13mark split-[0,2,4,8,12,13]
-[0,2,4,8,12,15,16]
+[0,2,4,8,12,15]
 
 input csv from user
 read operation and write 
