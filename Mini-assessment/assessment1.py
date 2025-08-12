@@ -174,7 +174,12 @@ print(combined_df)'''
 
 
 
-
+linear
+binary
+bubble
+selection
+quick sort 
+insertion sort
 
 
 

@@ -1,7 +1,6 @@
 #activity2
 make a bankaccount class with private balance and controlled deposit/withdraw methods
 
-
 class BankAccount:
 	def __init__(self,balance):
 		self.__balance=balance

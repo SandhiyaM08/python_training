@@ -71,8 +71,7 @@ with zipfile.ZipFile("airline_analysi_outputs.zip",'w') as zf:
 	zf.write("target_not_achieved.csv")
 	zf.write("yearly_summary.json")
 
-print("Successfully")'''
-
+print("Successfully")
 import csv
 import json
 import pandas as pd
@@ -94,8 +93,8 @@ new = new.groupby('Month', as_index=False).first()
 
 combined_df=pd.concat([old,new],ignore_index=True)
 
-combined_df['year']=[random.choice
-([2023,2024]) for _ in range(len(combined_df))]
+combined_df['year']=["2023" if idx < len(old)  else "2024" for idx in range(len(combined_df))]
+print(combined_df)
 
 month_counts=combined_df['Month'].value_counts()
 month_once=month_counts[month_counts==1].index.tolist()
@@ -119,14 +118,94 @@ worst=combined_df[combined_df['pct_diff_target']==combined_df['pct_diff_target']
 print(best)
 print(worst)
 
-'''combined_df=combined_df.to_csv("combined_airline_data.csv",index=False)
+combined_df=combined_df.to_csv("combined_airline_data.csv",index=False)
 target=target.to_csv("target_not_achieved.csv",index=False)
 annual_summary=annual_summary.to_json("yearly_summary.json",index=False)
 
 with open zipfile.ZipFile("airline_analysis_outputs.zip",'w') as z:
 	z.write("combined_airline_data.csv")
 	z.write("target_not_achieved.csv")
-	z.write("yearly_summary.json")'''
+	z.write("yearly_summary.json")
+
+
+
+
+
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i 
+    return -1  
+numbers = [10, 25, 30, 45, 50]
+target = 30
+result = linear_search(numbers, target)
+if result != -1:
+    print(f"Target {target} found at index {result}.")
+else:
+    print(f"Target {target} not found in the list.")
+
+
+
+#linear
+def linear(arr,target):
+	for i in range(len(arr)):
+		if arr[1]==target:
+			return i
+	return -1
+number=[12,1,3]
+target=1
+result=linear(number,target)
+
+if result!=-1:
+	print(f"Target {target} found at index {result}")
+else:
+	print(f"Target {Target} not found in the list")
+
+
+'''
+
+
+#quick sort
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr  # Already sorted
+    pivot = arr[0]  # Pick the first element as pivot
+    left = [x for x in arr[1:] if x < pivot]      # Smaller than pivot
+    right = [x for x in arr[1:] if x >= pivot]    # Greater or equal to pivot
+    return quick_sort(left) + [pivot] + quick_sort(right)
+
+numbers = [5, 3, 8, 4, 2]
+sorted_numbers = quick_sort(numbers)
+print("Sorted:", sorted_numbers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
